@@ -1,3 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="344.5639097744361 330.27819548872174 111.73684210526318 91.21804511278197" width="53.87" height="43.61"><defs><path d="M453.3 331.28L453.3 359.85L388.64 418.5L388.64 388.42L453.3 331.28Z" id="aFZf6T5ED"></path><linearGradient id="gradientb2ThqnP5Op" gradientUnits="userSpaceOnUse" x1="420.97" y1="331.28" x2="420.97" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient><path d="M410.23 331.28L410.23 359.85L345.56 418.5L345.56 388.42L410.23 331.28Z" id="a9fehgwfM"></path><linearGradient id="gradientk1wNV9Ostb" gradientUnits="userSpaceOnUse" x1="377.89" y1="331.28" x2="377.89" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient></defs><g><g><use xlink:href="#aFZf6T5ED" opacity="1" fill="url(#gradientb2ThqnP5Op)"></use></g><g><use xlink:href="#a9fehgwfM" opacity="1" fill="url(#gradientk1wNV9Ostb)"></use></g></g></svg>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 603 522" width="96" height="96">
+	<title>New Project</title>
+	<style>
+		.s0 { fill: #aaaaaa } 
+		.s1 { fill: #c9c9c9 } 
+	</style>
+	<path id="Shape 1" fill-rule="evenodd" class="s0" d="m302 511c-138.3 0-250-111.8-250-250 0-138.3 111.8-250 250-250 138.3 0 250 111.8 250 250 0 138.3-111.8 250-250 250zm229-250.5c0-126.9-102.6-229.5-229.5-229.5-126.9 0-229.5 102.6-229.5 229.5 0 126.9 102.6 229.5 229.5 229.5 126.9 0 229.5-102.6 229.5-229.5z"/>
+	<path id="Color Fill 1" class="s1" d="m291 209v42l-144.1 83c0 0 13.2 44 71.1 76v40c0 0-121.3-43.1-125-187-2.2-84.1 62.5-200.6 198-206v36c-103 4-180.5 100.3-157.2 206.9zm161 119c0 0 54.9-92-24-184v266c0 0-18.7 13.6-35 21v-315c0 0-15.5-12.5-43-19v348c0 0-13.9 4.7-35 5v-393c132.4 7.9 192.9 116.6 190.2 196-1.9 58.2-17.2 76.7-23.2 93z"/>
+</svg>

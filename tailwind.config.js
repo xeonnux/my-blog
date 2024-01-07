@@ -10,7 +10,7 @@ module.exports = {
     './pages/**/*.{js,ts,tsx}',
     './components/**/*.{js,ts,tsx}',
     './layouts/**/*.{js,ts,tsx}',
-    './data/**/*.mdx',
+    './data/**/*.{mdx,svg}',
   ],
   darkMode: 'class',
   theme: {
@@ -25,7 +25,7 @@ module.exports = {
         sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
       },
       colors: {
-        primary: colors.pink,
+        primary: colors.blue,
         gray: colors.gray,
       },
       typography: ({ theme }) => ({
