@@ -7,20 +7,16 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'An portal for all the good things on the island',
+    description: `What if you could look up any nice activities and places on the island? Restaurants, Bars, NightClubs, Beaches, Hikes, etc. All in one place. That's what we are building here.`,
+    imgSrc: '/static/images/bonzanana.png',
+    href: 'https://www.bonzanana.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: 'Nullpod',
+    description: `A very good friend of mine build his own company and now is growing at an incredible pace. I'm helping him with some of the projects they are on.`,
     imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    href: 'https://www.nullpod.com',
   },
 ]
 
