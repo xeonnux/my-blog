@@ -1,0 +1,22 @@
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600">
+        <style>
+          .path1 {
+            animation: animate 3s linear infinite;
+            rotate: 10deg;
+          }
+          @keyframes animate {
+            0% {
+              stroke-dashoffset: 650;
+            }
+            100% {
+              stroke-dashoffset: 0;
+            }
+          }
+        </style>
+        <path class="path1" d="M0,160 C120,60 240,260 360,160 C480,60 600,260 720,160 C840,60 960,260 1080,160 C1200,60 1320,260 1440,160" stroke="rgba(23,99,239,0.185)" stroke-dasharray="300" stroke-width="2" fill="none"/>
+        <path class="path1" d="M0,180 C120,80 240,280 360,180 C480,80 600,280 720,180 C840,80 960,280 1080,180 C1200,80 1320,280 1440,180" stroke="rgba(23,99,239,0.185)" stroke-dasharray="325" stroke-width="2" fill="none"/>
+        <path class="path1"  d="M0,200 C120,100 240,300 360,200 C480,100 600,300 720,200 C840,100 960,300 1080,200 C1200,100 1320,300 1440,200" stroke="rgba(23,99,239,0.185)" stroke-dasharray="250" stroke-width="2" fill="none"/>
+        <path class="path1"  d="M0,220 C120,120 240,320 360,220 C480,120 600,320 720,220 C840,120 960,320 1080,220 C1200,120 1320,320 1440,220" stroke="rgba(23,99,239,0.185)" stroke-dasharray="225" stroke-width="2" fill="none"/>
+        <path class="path1"  d="M0,240 C120,140 240,340 360,240 C480,140 600,340 720,240 C840,140 960,340 1080,240 C1200,140 1320,340 1440,240" stroke="rgba(23,99,239,0.185)" stroke-dasharray="275" stroke-width="2" fill="none"/>
+        <path class="path1"  d="M0,260 C120,160 240,360 360,260 C480,160 600,360 720,260 C840,160 960,360 1080,260 C1200,160 1320,360 1440,260" stroke="rgba(23,99,239,0.185)" stroke-dasharray="200" stroke-width="2" fill="none"/>
+    </svg>
