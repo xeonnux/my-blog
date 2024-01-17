@@ -73,10 +73,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white" style={{
-        backgroundImage: 'url(/static/images/background.svg)',
-        backgroundPosition: 'center',
-      }}>
+      <body
+        className="bg-[url('/static/images/background.svg')] from-gray-950 from-20% via-gray-500 via-30% to-white to-90% text-black antialiased dark:bg-gray-950 dark:text-white"
+        style={{
+          backgroundPosition: 'center',
+          backgroundPositionX: 'left',
+          backgroundSize: 'fill',
+          backgroundAttachment: 'fixed',
+        }}
+      >
         <ThemeProviders>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
           <SectionContainer>
