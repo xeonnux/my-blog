@@ -1,4 +1,5 @@
-import { ReactNode } from 'react'
+'use client'
+import { ReactNode, useEffect } from 'react'
 import { CoreContent } from 'pliny/utils/contentlayer'
 import type { Blog, Authors } from 'contentlayer/generated'
 import Comments from '@/components/Comments'
@@ -9,6 +10,8 @@ import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
+import { gsap } from 'gsap'
+import { MotionPathPlugin } from 'gsap/dist/MotionPathPlugin'
 
 const editUrl = (path) => `${siteMetadata.siteRepo}/blob/main/data/${path}`
 const discussUrl = (path) =>
@@ -32,6 +35,59 @@ interface LayoutProps {
 export default function PostLayout({ content, authorDetails, next, prev, children }: LayoutProps) {
   const { filePath, path, slug, date, title, tags } = content
   const basePath = path.split('/')[0]
+  useEffect(() => {
+    if (document.getElementById('mini-white-hexagon')) {
+      gsap.registerPlugin(MotionPathPlugin)
+      gsap.to('.blk-right', {
+        motionPath: {
+          path: '#path1',
+          align: '#path1',
+          autoRotate: true,
+        },
+        duration: 8,
+        repeat: 1,
+        ease: 'none',
+        immediateRender: true,
+      })
+      gsap.set(['.blk-right', '.blk-right--self'], {
+        xPercent: -50,
+        yPercent: -50,
+        transformOrigin: '50% 50%',
+      })
+      gsap.to('.blk-left', {
+        motionPath: {
+          path: '#path3',
+          align: '#path3',
+          autoRotate: true,
+        },
+        duration: 8,
+        repeat: 1,
+        ease: 'none',
+        immediateRender: true,
+      })
+      gsap.set(['.blk-left', '.blk-left--self'], {
+        xPercent: -50,
+        yPercent: -50,
+        transformOrigin: '50% 50%',
+      })
+      gsap.to('.blk-top', {
+        motionPath: {
+          path: '#path2',
+          align: '#path2',
+          autoRotate: true,
+        },
+        duration: 8,
+        repeat: 1,
+        ease: 'none',
+        immediateRender: true,
+      })
+      gsap.set(['.blk-top', '.blk-top--self'], {
+        xPercent: -50,
+        yPercent: -50,
+        transformOrigin: '50% 50%',
+      })
+    }
+  })
 
   return (
     <SectionContainer>

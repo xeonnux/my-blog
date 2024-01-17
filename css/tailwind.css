@@ -33,3 +33,37 @@ input:-webkit-autofill:focus {
 .katex-display {
   overflow: auto hidden;
 }
+
+svg {
+  background-color: #000;
+}
+
+tspan {
+  white-space: pre
+}
+
+.shp0 {
+  fill: #cc0000
+}
+
+.shp1 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 42
+}
+
+.shp2 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 32
+}
+
+.shp3 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 4.4
+}
+
+.shp4 {
+  fill: #ffffff
+}
