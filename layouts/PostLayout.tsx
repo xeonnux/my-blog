@@ -45,7 +45,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
           autoRotate: true,
         },
         duration: 8,
-        repeat: 1,
+        repeat: -1,
         ease: 'none',
         immediateRender: true,
       })
@@ -61,7 +61,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
           autoRotate: true,
         },
         duration: 8,
-        repeat: 1,
+        repeat: -1,
         ease: 'none',
         immediateRender: true,
       })
@@ -77,7 +77,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
           autoRotate: true,
         },
         duration: 8,
-        repeat: 1,
+        repeat: -1,
         ease: 'none',
         immediateRender: true,
       })
