@@ -152,3 +152,16 @@ svg#wagon {
     fill: #234366;
   }
 }
+
+.blk-right {
+  transform-origin: 0 0;
+}
+
+.blk-left {
+  transform-origin: 0 0;
+}
+
+.blk-top {
+  transform-origin: 0 0;
+}
+
