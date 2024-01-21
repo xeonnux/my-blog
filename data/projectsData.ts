@@ -22,7 +22,7 @@ const projectsData: Project[] = [
     title: 'Animated Company Slogan using SVG',
     description: `Simply Financial Services(Pty) Ltd is undergoing some revamping or the UI and our CEO made a special request to have the Curve \`insurance\` word animated for the new landing page. I was so excited to show off my Custom SVG knowledge.`,
     imgSrc: '/static/images/simply.gif',
-    href: 'https://www.simply.co.za',
+    href: '/blog/2024-back-into-svg',
   },
 ]
 
